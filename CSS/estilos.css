@@ -1,0 +1,11 @@
+
+*{
+   
+    padding: 0px;
+}
+body{
+    background: url(fon1.png);
+    background-size: 1350px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}

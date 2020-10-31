@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Música Criolla</title>
+  <link rel="stylesheet" href="CSS/estilos.css">
+
+<style>
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid red;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+</style>
+</head>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>El panal de Dante</title>
+            <link rel="stylesheet" href="CSS/estilos.css">
+            <style type="text/css">
+                #idsect{
+                    position: fixed;
+            
+                }
+                #idfooter{
+                    background: maroon;
+                    text-align: center;
+                    color: beige;
+                    padding: 12px;
+        
+                }
+                #idtable{
+                    background:maroon;
+                    text-align: center;
+                    align-content: center;
+                    color: beige;
+                    padding: 5px;
+                    font-size:150%;
+                    font-family: verdana;
+        
+                }
+                #idsection{
+                    text-align: center;
+                    align-content: center;
+                    padding: 2px;
+                    
+                }
+        
+               
+              
+            </style>
+        </head>
+        <body>
+            <section id='sect'>
+                <img src="portada.png" alt="" width="1200" height="80px">
+            </section>
+            
+            <header id="idheader" align='center'>
+                <img src='logo.png' style="width:200px">   
+            </header>
+        <br>
+        <br>
+        
+            <table id='idtable' bgcolor='maroon' border="3" cellpadding='5'  align="center" style="width:1000px;" >
+                <tr bgcolor='maroon' typetext= >
+                    <td onmouseover='this.style.background="white"' onmouseout='this.style.background="maroon"'><a href="histo.html"><FONT COLOR="red">HISTORIA</FONT></a> </td>
+                    <td onmouseover='this.style.background="#cc0700"' onmouseout='this.style.background="maroon"'><a href="music.html"><FONT COLOR="white">MÚSICOS</FONT></a> </td>
+                    <td onmouseover='this.style.background="white"' onmouseout='this.style.background="maroon"'><a href="gene.html"><FONT COLOR="red">GENEROS</FONT></a> </td>
+                    <td onmouseover='this.style.background="#cc0700"' onmouseout='this.style.background="maroon"'><a href="inst.html"><FONT COLOR="white">INSTRUMENTOS</FONT></a> </td>
+                    <td onmouseover='this.style.background="white"' onmouseout='this.style.background="maroon"'><a href="can.html"><FONT COLOR="red">CANCIONES</FONT></a> </td>
+                </tr>
+        
+            </table>
+            <h1></h1>
+<section id='idsection' style='font-family:Lucida Sans;'>
+            <h2 style="color: red;" >HISTORIA
+            </h2>
+    <h1></h1>
+</section>
+            <section id='idsection' style='font-family:Lucida Sans;'>
+        
+            
+                <article>
+                    <h2 style="color: orangered;" >Historia:
+                      <p style='font-size:70%;color: black;'>
+                        El criollismo nació en las prrimeras decadas del siglo XX, los precursores mas destacables fueron Edoardo <br> Montes y CesarAugusto Manrrique; estos dos viajaron a New York <br> para grabar 182 discos, de los que se conservan 30
+                      </p>  
+                    </h2>
+                </article>
+                <article>
+                    <h2 style='color: orangered'>La Guardia Vieja:
+                      <p style='font-size:70%;color: black;'>
+                        Aqui aparecerian otros músicos como Felipe Pingle Alva, que luego de una vida bohemia llena de jaranas <br> murió a los 36 años dejando muchas canciones del género de vals <br> y asi iluminar a los musicos que surgirian en los años 40 y 50 
+                      </p>  
+                    </h2>
+                    <img style='align:center;' src="n1.gif" alt="" width="400">
+                    <h2 style='color: orangered'>Acontecimientos luego de 1940:</h2>
+
+                    <section>
+                    <ul style="display: inline-block;line-height:150%;">
+                        <b> <li> El apogeo de la musica criolla se dio en simultaneo con la epoca de oro de la radio</li>
+                        <li>Los cantantes comenzaron a ser contratados por empresas grandes, para generar histeria entre los oyentes </li>
+                        <li>La difusion masiva permitió que las persoas de otras cllases sociales hicieran valiosos aportes</li>
+                        <li>El 18 de octubre 1944 fue establcido como el dia de la cancion criolla por Manuel Prado </li>
+                        <li>Posteriormente se cambió la fecha al 31 de octubre por el falllecimiento de Lucha Reyes.</li>
+                    </b>
+                    </ul>
+                    <h2 style='color: orangered'>Acontecimientos luego de 1975:
+                      <p style='font-size:70%;color: black;'>
+                        En 1975 Augusto Polo Campo compuso en tan solo unos minutos CONTIGO PERÚ; <br> en 1987 "Las seis grandes de la cancion criolla" son nombradas así por una resolucion de Alan Garcia <br> y por ultimo la OEA declaro patrimonio artistico de América a 5 músicos criollos.
+                      </p>  
+                    </h2>
+                </section>
+                <img style='align:center;' src="n2.gif" alt="" width="400">
+            </section>
+         
+            <table>
+              <table align="center" width="54%" border="0" cellpadding="2">
+                <tr>
+                    <td>
+                        <img src="fb.png" width="60px";/>
+                    </td>
+                    <td>
+                        <h3 style="text-align: left;"><a href="https://www.facebook.com/">Dante Apaza</a></h3>
+                    </td>
+                    <td>
+                        <img src="gmail.png" width="60px";/>
+                    </td>
+                    <td>
+                        <h3 style="text-align: left;"><a href="https://www.gmail.com/">estudiante4687@sjbdelasalle.edu.pe</a></h3>
+                        
+                    </td>
+                </tr>
+            </table>       
+                
+            <footer id="idfooter">
+
+                Página creada por Dante Apaza
+               
+      </footer> 
+            
+        </body>
+</div>
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+</body>
+</html>
